@@ -1,0 +1,15 @@
+{
+    
+    "files.defaultLanguage": "html",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.ignoreMissingGitWarning": true,
+    "liveServer.settings.port": 0,
+    "html.autoClosingTags": false,
+    "explorer.confirmDragAndDrop": false,
+    "auto-rename-tag.activationOnLanguage": [
+        "html"
+    ],
+    "files.useExperimentalFileWatcher": true,
+    "editor.insertSpaces": false,
+}
