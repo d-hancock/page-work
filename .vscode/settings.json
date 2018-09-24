@@ -4,7 +4,6 @@
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "git.ignoreMissingGitWarning": true,
-<<<<<<< HEAD
     "liveServer.settings.port": 0,
     "html.autoClosingTags": false,
     "explorer.confirmDragAndDrop": false,
@@ -13,10 +12,4 @@
     ],
     "files.useExperimentalFileWatcher": true,
     "editor.insertSpaces": false,
-=======
-    "liveServer.settings.port":0,
-    "html.autoClosingTags": false,
-    "explorer.confirmDragAndDrop": false,
-     "auto-rename-tag.activationOnLanguage": ["html"],
->>>>>>> upstream/master
 }
