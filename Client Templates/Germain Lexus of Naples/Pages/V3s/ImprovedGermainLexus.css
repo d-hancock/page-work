@@ -1,28 +1,25 @@
-
-
-
-
 tbody {
   text-align: center;
 }
 div.dark {
   background-color: #000;
-  color:#fff;
+  color: #fff;
 }
 div.color {
   background-color: #dedede;
 }
-div.dark > p,a {
-  color:#fff;
+div.dark > p,
+a {
+  color: #fff;
 }
 
-.dcw-design-lexus .bg-light, .dcw-design-lexus .bg-dark {
+.dcw-design-lexus .bg-light,
+.dcw-design-lexus .bg-dark {
   padding-bottom: 5rem;
 }
 .dcw-design-lexus .l1 {
   padding-bottom: 0;
 }
-
 
 /* BASE */
 
@@ -33,13 +30,15 @@ div.dark > p,a {
 h1 {
   font-size: 2rem;
   margin: 1.6rem 0 1rem;
-  font-family: 'Nobel Bold', sans-serif;
+  font-family: "Nobel Bold", sans-serif;
   text-align: center;
 }
-h2, h3,{
+h2,
+h3 {
   font-size: 1.5rem;
 }
-a, p,{
+a,
+p {
   font-size: 1.3rem;
 }
 
@@ -47,13 +46,10 @@ a {
   text-decoration: underline;
 }
 
-
-
-
 /* BUTTONS */
 
 a.btn {
-  font-size: 1.4rem!important;
+  font-size: 1.4rem !important;
   text-transform: uppercase;
   font-family: "Nobel bold", sans-serif;
   margin-top: 1rem;
@@ -62,66 +58,66 @@ a.btn {
   padding: 1.5rem 1rem !important;
 }
 
- a.btn.bg-dark {
+a.btn.bg-dark {
   background-color: #000;
   color: #fff;
 }
-a.btn.bg-dark:hover, a.btn.bg-dark:active {
+a.btn.bg-dark:hover,
+a.btn.bg-dark:active {
   background-color: #fff;
   border-color: #000;
   color: #000;
 }
 
-a.btn.bg-light  {
+a.btn.bg-light {
   background-color: #fff;
   color: #000;
 }
 
-a.btn.bg-light:hover,  a.btn.bg-light:active {
+a.btn.bg-light:hover,
+a.btn.bg-light:active {
   background-color: #000;
   border-color: #fff;
   color: #fff;
 }
 
-
 /* PANEL */
 
-
 div.hero1 {
-height: 600px;
-width: 100vw;
-background-repeat: no-repeat;
-background-size: cover; 
+  height: 600px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div.hero1 div.content {
-height: auto; 
-max-height: 575px; 
-overflow: hidden; 
-text-align: left; 
-color: #fff; 
-background-color: #00000090;
+  height: auto;
+  max-height: 575px;
+  overflow: auto;
+  text-align: left;
+  color: #fff;
+  background-color: #00000090;
 }
 
 h2.heading {
-line-height: 2.3vmax; 
-font-size: 2.3vmax; 
-margin-top: 2%;
+  line-height: 2.3vmax;
+  font-size: 2.3vmax;
+  margin-top: 2%;
 }
 
 h2.price {
-font-size: 4vmax; 
-margin-right:.5vmax;
+  font-size: 4vmax;
+  margin-right: 0.5vmax;
 }
 
 h2.price p {
-font-size: 2vmax;
+  font-size: 2vmax;
 }
 
 h2.details {
-font-size: 3vmax;
+  font-size: 3vmax;
 }
 
 h2.details p {
-font-size: 1.3vmax;
+  font-size: 1.3vmax;
 }
