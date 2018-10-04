@@ -2,140 +2,343 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-	 crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-	 crossorigin="anonymous"></script>
-	<style>
-		tbody {
-  text-align: center;
-}
-div.dark {
-  background-color: #000;
-  color: #fff;
-}
-div.color {
-  background-color: #dedede;
-}
-div.dark > p,
-a {
-  color: #fff;
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-.dcw-design-lexus .bg-light,
-.dcw-design-lexus .bg-dark {
-  padding-bottom: 5rem;
-}
-.dcw-design-lexus .l1 {
-  padding-bottom: 0;
-}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="GLNMainCSS.css">
 
-/* BASE */
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <style>
+   tbody {
+			text-align: center;
+		}
 
-.dcw-design-lexus /* body class */ {
-  line-height: 1.5;
-}
+		div.dark {
+			background-color: #000;
+			color: #fff;
+		}
 
-h1 {
-  font-size: 2rem;
-  margin: 1.6rem 0 1rem;
-  font-family: "Nobel Bold", sans-serif;
-  text-align: center;
-}
-h2,
-h3 {
-  font-size: 1.5rem;
-}
-a,
-p {
-  font-size: 1.3rem;
-}
+		div.color {
+			background-color: #dedede;
+		}
 
-a {
-  text-decoration: underline;
-}
+		div.dark>p,
+		a {
+			color: #fff;
+		}
 
-/* BUTTONS */
+		.dcw-design-lexus .bg-light,
+		.dcw-design-lexus .bg-dark {
+			padding-bottom: 5rem;
+		}
 
-a.btn {
-  font-size: 1.4rem !important;
-  text-transform: uppercase;
-  font-family: "Nobel bold", sans-serif;
-  margin-top: 1rem;
-  border-radius: 0px;
-  text-decoration: none;
-  padding: 1.5rem 1rem !important;
-}
+		.dcw-design-lexus .l1 {
+			padding-bottom: 0;
+		}
 
-a.btn.bg-dark {
-  background-color: #000;
-  color: #fff;
-}
-a.btn.bg-dark:hover,
-a.btn.bg-dark:active {
-  background-color: #fff;
-  border-color: #000;
-  color: #000;
-}
+		/* BASE */
 
-a.btn.bg-light {
-  background-color: #fff;
-  color: #000;
-}
+		.dcw-design-lexus
 
-a.btn.bg-light:hover,
-a.btn.bg-light:active {
-  background-color: #000;
-  border-color: #fff;
-  color: #fff;
-}
+		/* body class */
+			{
+			line-height: 1.5;
+		}
 
-/* PANEL */
+		h1 {
+			font-size: 2rem;
+			margin: 1.6rem 0 1rem;
+			font-family: "Nobel Bold", sans-serif;
+			text-align: center;
+		}
 
-div.hero1 {
-  height: 600px;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+		h2,
+		h3 {
+			font-size: 1.5rem;
+		}
 
-div.hero1 div.content {
-  height: auto;
-  max-height: 575px;
-  overflow: auto;
-  text-align: left;
-  color: #fff;
-  background-color: #00000090;
-}
+		a,
+		p {
+			font-size: 1.3rem;
+		}
 
-h2.heading {
-  line-height: 2.3vmax;
-  font-size: 2.3vmax;
-  margin-top: 2%;
-}
+		a {
+			text-decoration: underline!important;
+		}
 
-h2.price {
-  font-size: 4vmax;
-  margin-right: 0.5vmax;
-}
+		/* BUTTONS */
 
-h2.price p {
-  font-size: 2vmax;
-}
+		a.btn {
+			font-size: 1.4rem !important;
+			text-transform: uppercase;
+			font-family: "Nobel bold", sans-serif;
+			margin-top: 1rem;
+			border-radius: 0px;
+			border-color: #000;
+			text-decoration: none!important;
+			padding: 1.5rem 1rem !important;
+		}
 
-h2.details {
-  font-size: 3vmax;
-}
+		a.btn.bg-dark {
+			background-color: #000;
+			color: #fff;
+		}
 
-h2.details p {
-  font-size: 1.3vmax;
-}
-	</style>
+		a.btn.bg-dark:hover,
+		a.btn.bg-dark:active {
+			background-color: #fff;
+			border-color: #000;
+			color: #000;
+		}
+
+		a.btn.bg-light {
+			background-color: #fff;
+			color: #000;
+		}
+
+		a.btn.bg-light:hover,
+		a.btn.bg-light:active {
+			background-color: #000;
+			border-color: #fff;
+			color: #fff;
+		}
+
+		/* PANEL */
+
+		div.hero1 {
+			height: 600px;
+			width: 100vw;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		div.hero1 div.content {
+			height: auto;
+			max-height: 575px;
+			overflow: auto;
+			text-align: left;
+			color: #fff;
+			background-color: #00000090;
+		}
+
+		h2.heading {
+			line-height: 2.3vmax;
+			font-size: 2.3vmax;
+			margin-top: 2%;
+		}
+
+		h2.price {
+			font-size: 4vmax;
+			margin-right: 0.5vmax;
+		}
+
+		h2.price p {
+			font-size: 2vmax;
+		}
+
+		h2.details {
+			font-size: 3vmax;
+		}
+
+		h2.details p {
+			font-size: 1.3vmax;
+		}
+
+		.parallax1 {
+			/* The image used */
+			background-image: url("//media-cf.assets-cdk.com/websites/content/c362faebf18f44e9870c3e47a70beaa0_c33x0-1135x487_x1135.jpg");
+
+			/* Set a specific height */
+			min-height: 500px;
+
+			/* Create the parallax scrolling effect */
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+  </style>
 </head>
-<body>
-	
+
+<body class="dcw-design-lexus">
+  <img src="//media-cf.assets-cdk.com/websites/content/e4bdfbc8e3f447859df3c2ab469fecf7_1500x400.jpg" alt="2019 Lexus ES vs. 2019 Toyota Avalon" title="2019 Lexus ES vs. 2019 Toyota Avalon" width="100%">
+    <div class="row ">
+
+        <div class="col-xs-12 col-sm-4">
+          <a class="bg-dark btn" style="width: 100%; margin-top: 2%;" href="/VehicleSearchResults?search=new&model=ES%20300h,ES%20350">NEW LESUS ES INVENTORY</a>
+        </div>
+    
+        <div class="col-xs-12 col-sm-4">
+          <a class="bg-dark btn" style="width: 100%; margin-top: 2%;" href="/ScheduleTestDriveForm_D">SCHEDULE TEST DRIVE</a>
+        </div>
+    
+        <div class="hidden-xs col-sm-4">
+          <a class="bg-light btn" style="width: 100%; margin-top: 2%;" href="/contact.htm">CONTACT US</a>
+        </div>
+    
+        <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
+          <a class="bg-light btn" style="width: 100%; margin-top: 2%;" href="tel:2395925533">CALL NOW</a>
+        </div>
+      </div>
+  <div class="col-xs-12">
+    <h1>2019 Lexus ES vs. 2019 Toyota Avalon | Bonita Springs, FL</h1>
+    <p>Lexus is the luxury brand of Toyota, so models from the two nameplates can be quite similar. This means that
+      customers may ask themselves whether to purchase a new luxury sedan from Lexus or a premium sedan from Toyota
+      with
+      all the options checked. If you are considering both the new Lexus ES and the new Toyota Avalon, our comparison
+      below will help you decide which makes the most sense for you. If you&rsquo;d prefer to speak directly with a
+      product specialist, please call <a href="tel:2392210584">(239) 221-0584</a>.</p>
+  </div>
+  <div class="dark col-xs-12">
+    <h2 style="text-align: center;">2019 Lexus ES vs. 2019 Toyota Avalon: Specs and Performance</h2>
+    <p>The 2019 Lexus ES and 2019 Toyota Avalon are built on the same new platform, which lowers the center of gravity
+      for improved handling, and use the same 3.5L V6 engine. Both are also available as a hybrid as well. However, the
+      Lexus ES is just slightly more powerful and fuel-efficient with either powertrain.</p>
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          <td>
+            <p>Model/Engine</p>
+          </td>
+          <td>
+            <p>2019 Lexus ES</p>
+          </td>
+          <td>
+            <p>2019 Toyota Avalon</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>3.5L V6</p>
+          </td>
+          <td>
+            <p>302 HP; 33 MPG hwy</p>
+          </td>
+          <td>
+            <p>301 HP; 31-32 MPG hwy</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>2.5L I4 + Electric Motor</p>
+          </td>
+          <td>
+            <p>215 HP; 45 MPG hwy</p>
+          </td>
+          <td>
+            <p>176 HP; 43-44 MPG hwy</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>The Lexus ES is also available with F SPORT performance tuning, such as an adaptive variable suspension and
+      Sport
+      S+ drive mode. And unlike the Toyota Avalon, every new Lexus ES is equipped with paddle shifters.</p>
+  </div>
+  <div class="row" style="margin:0;">
+    <div class="col-sm-12 col-md-6">
+      <div style="margin: 2%">
+        <img src="//media-cf.assets-cdk.com/websites/content/89c16e6069644c6eb7cab027da7c25a8_c0x0-600x337.jpg" alt="2019 Lexus ES Interior" title="2019 Lexus ES Interior" style="width: 100%">
+        <div class="panel panel-default" style="border-radius: 0px;">
+          <div style="text-align: center;" class="panel-heading">
+            <h2 style="text-align: left;">2019 Lexus ES vs. 2019 Toyota Avalon: Interior Comfort</h2>
+          </div>
+          <div class="panel-body" style="min-height:370px">
+            <p>The cabin of the Toyota Avalon is a comfortable place to spend your commute, thanks to standard features
+              like
+              dual-zone climate control and available features like heated and ventilated front seats. However, the
+              Lexus ES has
+              all these features plus several more.</p>
+            <ul>
+              <li>The Avalon is available with a power tilt/slide moonroof with a sunshade, and the Lexus ES with a
+                panoramic
+                glass roof.</li>
+              <li>The Lexus ES provides the best rear legroom in its class.</li>
+              <li>The Avalon has an 8-way power-adjustable driver&rsquo;s seat with up to 4-way lumbar adjustment.
+                Lexus ES
+                owners can enjoy a 14-way power-adjustable driver&rsquo;s seat with a power-extendable seat cushion for
+                added
+                thigh support.</li>
+              <li>Only the Lexus ES is available with a power rear sunshade.</li>
+              <li>Only the Lexus ES is available with a heated wood and leather-trimmed steering wheel.</li>
+              <li>The semi-aniline perforated leather upholstery in the Lexus ES is of higher quality than the leather
+                used in
+                the Toyota Avalon.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <div style="margin: 2%">
+        <img src="//media-cf.assets-cdk.com/websites/content/b4dff9bffc934f8bbc8b9619c1d6cd81_c0x0-600x337.jpg" style="width: 100%" alt="2018 Lexus ES Technology" title="2018 Lexus ES Technology">
+        <div class="panel panel-default" style="border-radius: 0px;">
+          <div style="text-align: center;" class="panel-heading">
+            <h2 style="text-align: left;">2019 Lexus ES vs. 2019 Toyota Avalon: Technology</h2>
+          </div>
+          <div class="panel-body" style="min-height:370px">
+            <p>The infotainment systems in the Lexus ES and Toyota Avalon are incredibly versatile, including
+              everything from app
+              suites to cloud-based navigation updates to on-board Wi-Fi hotspots. Both are also available with
+              wireless
+              smartphone charging. That said, the Lexus ES has more impressive technology overall.</p>
+            <ul>
+              <li>The Lexus ES is available with a 12.3-in. multimedia and navigation display with a touchpad
+                controller that
+                recognizes pinch and swipe gestures as well as handwritten input. The Toyota Avalon uses a 9-in.
+                touchscreen.</li>
+              <li>Although the Toyota Avalon is available with a Head-Up Display, the 10.2-in. version in the new Lexus
+                ES is
+                larger and more impressive.</li>
+              <li>Only the Lexus ES comes with Amazon Alexa integration.</li>
+              <li>Lexus Enform Destination Assist provides 24-hr access to a live response center agent to help you
+                locate
+                addresses and nearby points of interest.</li>
+              <li>The 17-speaker, 1,800-watt Mark Levinson&reg; PurePlay sound system available in the new Lexus ES is
+                unlike
+                anything offered in a vehicle before.</li>
+              <li>The Lexus Safety System+ 2.0 contains all features in the Toyota Safety Sense&trade; P suite of
+                safety
+                equipment, plus Lane Tracing Assist and Road Sign Assist.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="parallax1 col-xs-12">
+    <div class="col-xs-12 col-sm-offset-8 col-sm-4" style="padding: 3%; margin-top: 3%; background-color: rgba(255, 255, 255, 0.8)">
+      <h2 style="text-align: center;">Test Drive Your New Luxury Sedan near Bonita Springs, FL</h2>
+      <p>Although the Toyota Avalon is perhaps the most luxurious model in the new Toyota lineup, it still
+        can&rsquo;t
+        compare to a model from a luxury marque. If you are interested in experiencing the new 2019 Lexus ES from
+        behind
+        the wheel, select the model you wish to drive from our <a href="/VehicleSearchResults?search=new&model=ES%20300h,ES%20350">new model inventory</a> and then <a href="/ScheduleTestDriveForm_D">schedule an
+          appointment</a> at our Lexus dealership near Bonita Springs, FL.</p>
+    </div>
+  </div>
+  <div class="row ">
+
+    <div class="col-xs-12 col-sm-4">
+      <a class="bg-dark btn" style="width: 100%; margin-top: 2%;" href="/VehicleSearchResults?search=new&model=ES%20300h,ES%20350">NEW LESUS ES INVENTORY</a>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <a class="bg-dark btn" style="width: 100%; margin-top: 2%;" href="/ScheduleTestDriveForm_D">SCHEDULE TEST DRIVE</a>
+    </div>
+
+    <div class="hidden-xs col-sm-4">
+      <a class="bg-light btn" style="width: 100%; margin-top: 2%;" href="/contact.htm">CONTACT US</a>
+    </div>
+
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
+      <a class="bg-light btn" style="width: 100%; margin-top: 2%;" href="tel:2395925533">CALL NOW</a>
+    </div>
+  </div>
+
 </body>
 
 </html>

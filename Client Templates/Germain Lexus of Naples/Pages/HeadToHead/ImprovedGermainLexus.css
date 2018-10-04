@@ -1,14 +1,17 @@
 tbody {
   text-align: center;
 }
+
 div.dark {
   background-color: #000;
   color: #fff;
 }
+
 div.color {
   background-color: #dedede;
 }
-div.dark > p,
+
+div.dark>p,
 a {
   color: #fff;
 }
@@ -17,13 +20,17 @@ a {
 .dcw-design-lexus .bg-dark {
   padding-bottom: 5rem;
 }
+
 .dcw-design-lexus .l1 {
   padding-bottom: 0;
 }
 
 /* BASE */
 
-.dcw-design-lexus /* body class */ {
+.dcw-design-lexus
+
+/* body class */
+  {
   line-height: 1.5;
 }
 
@@ -33,17 +40,19 @@ h1 {
   font-family: "Nobel Bold", sans-serif;
   text-align: center;
 }
+
 h2,
 h3 {
   font-size: 1.5rem;
 }
+
 a,
 p {
   font-size: 1.3rem;
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: underline!important;
 }
 
 /* BUTTONS */
@@ -54,7 +63,8 @@ a.btn {
   font-family: "Nobel bold", sans-serif;
   margin-top: 1rem;
   border-radius: 0px;
-  text-decoration: none;
+  border-color: #000;
+  text-decoration: none!important;
   padding: 1.5rem 1rem !important;
 }
 
@@ -62,6 +72,7 @@ a.btn.bg-dark {
   background-color: #000;
   color: #fff;
 }
+
 a.btn.bg-dark:hover,
 a.btn.bg-dark:active {
   background-color: #fff;
@@ -120,4 +131,18 @@ h2.details {
 
 h2.details p {
   font-size: 1.3vmax;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("//media-cf.assets-cdk.com/websites/content/c362faebf18f44e9870c3e47a70beaa0_c33x0-1135x487_x1135.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
