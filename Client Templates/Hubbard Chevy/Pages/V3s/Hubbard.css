@@ -4,10 +4,6 @@ a {
 a:hover {
   color: #f4bc00;
 }
-h1 {
-  margin: 18px 0 48px !important;
-}
-
 h2 {
   margin-top: 48px !important;
   margin-bottom: 16px !important;
@@ -21,20 +17,57 @@ ol {
 li {
   margin-bottom: 8px;
 }
-.lease-hero {
-  background-image: url("https://media-cf.assets-cdk.com/websites/content/c619abd2e78e441cacb7c63a168a362a.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100vw;
+div.hero1 {
   height: 600px;
-  padding: 64px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.lease-offer {
-  height: 100%;
-  padding: 24px;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
+
+div.hero1 div.content {
+  height: auto;
+  max-height: 575px;
+  overflow: auto;
+  text-align: left;
+  color: #fff;
+  background-color: #00000090;
+}
+
+h2.heading {
+  line-height: 2.3vmax;
+  font-size: 2.3vmax;
+  margin-top: 2%;
+}
+
+h2.price {
+  font-size: 4vmax;
+  margin-right: 0.5vmax;
+}
+
+h2.price p {
+  font-size: 2vmax;
+}
+
+h2.details {
+  font-size: 3vmax;
+}
+
+h2.details p {
+  font-size: 1.3vmax;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("//media-cf.assets-cdk.com/websites/content/c362faebf18f44e9870c3e47a70beaa0_c33x0-1135x487_x1135.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .btn {
   display: inline-block;

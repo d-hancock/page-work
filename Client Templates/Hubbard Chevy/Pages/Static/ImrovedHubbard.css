@@ -1,0 +1,68 @@
+div.color {
+	background-color: #414042;
+	color: #ecf0f1;
+}
+
+div.color > p,
+a {
+	color: #ECF0F0;
+}
+
+a.btn {
+	display: inline-block;
+	font-size: 1.4rem !important;
+	text-transform: uppercase;
+	margin-top: 1rem;
+	border-radius: 0px;
+	text-align: center;
+	text-decoration: none;
+	padding: 1.5rem 1rem !important;
+	background-color: #353936;
+	color: #ecf0f1;
+}
+
+a.btn:hover,
+a.btn:active {
+	background-color: #414042;
+	border-color: #414042;
+	color: #eef2ee;
+}
+
+div.hero1 {
+	height: 600px;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.hero1 div.content1 {
+	height: auto;
+	max-height: 575px;
+	overflow: hidden;
+	text-align: left;
+	color: #5a595c;
+	background-color: #ffffffcc;
+}
+
+h2.heading1 {
+	line-height: 2.3vmax;
+	font-size: 2.3vmax;
+	margin-top: 2%;
+}
+
+h2.price1 {
+	font-size: 4vmax;
+	margin-right: 0.5vmax;
+}
+
+h2.price1 p {
+	font-size: 2vmax;
+}
+
+h2.details1 {
+	font-size: 3vmax;
+}
+
+h2.details1 p {
+	font-size: 1.3vmax;
+}
