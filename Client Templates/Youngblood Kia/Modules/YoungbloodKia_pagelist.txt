@@ -1,0 +1,6 @@
+CLP1 Tradein Value http://www.springfieldkia.com/EdmundsAppraiseTool.htm
+CLP2 Under 10K http://www.springfieldkia.com/global-incentives/index.htm
+PU1 Optima Lease http://www.springfieldkia.com/research/optima-inventory.htm
+PU2 Sorento Lease http://www.springfieldkia.com/research/sorento-inventory.htm
+PU4 Sportage Lease http://www.springfieldkia.com/research/sportage-inventory.htm
+PU5 Stinger Lease http://www.springfieldkia.com/research/stinger-inventory.htm

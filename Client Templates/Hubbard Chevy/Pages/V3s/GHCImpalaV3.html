@@ -2,227 +2,263 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-	 crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="HubbardMain.css">
-  
-	
-	<style>
-		a {
-  text-decoration: underline;
-}
-a:hover {
-  color: #f4bc00;
-}
-h2 {
-  margin-top: 16px !important;
-  margin-bottom: 16px !important;
-}
-h3:after {
-  display: none;
-}
-ol {
-  margin-bottom: 36px !important;
-}
-li {
-  margin-bottom: 8px;
-}
-div.hero1 {
-  height: 600px;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-div.hero1 div.content {
-  height: auto;
-  max-height: 575px;
-  overflow: auto;
-  text-align: left;
-  color: #fff;
-  background-color: #00000090;
-}
 
-h2.heading {
-  line-height: 2.3vmax;
-  font-size: 2.3vmax;
-  margin-top: 2%;
-}
+  <style>
+    a {
+      text-decoration: underline;
+    }
 
-h2.price {
-  font-size: 4vmax;
-  margin-right: 0.5vmax;
-}
+    a:hover {
+      color: #f4bc00;
+    }
 
-h2.price p {
-  font-size: 2vmax;
-}
+    h2 {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
 
-h2.details {
-  font-size: 3vmax;
-}
+    h3:after {
+      display: none;
+    }
 
-h2.details p {
-  font-size: 1.3vmax;
-}
+    ol {
+      margin-bottom: 36px !important;
+    }
 
-.parallax1 {
-  /* The image used */
-  background-image: url("//media-cf.assets-cdk.com/websites/content/c362faebf18f44e9870c3e47a70beaa0_c33x0-1135x487_x1135.jpg");
+    li {
+      margin-bottom: 8px;
+    }
 
-  /* Set a specific height */
-  min-height: 500px;
+    div.hero1 {
+      height: 600px;
+      width: 100vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-.btn-primary {
-  color: #fff !important;
-  background-color: #f4bc00;
-  border-color: #f4bc00;
-  border-width: 2px;
-  border-style: solid;
-  font-family: LatoBold, sans-serif !important;
-  font-size: 1.4rem;
-  line-height: 1.5;
-  text-align: center;
-  text-transform: uppercase;
-  max-width: 300px;
-  transition: ease-in-out, all 0.2s ease-in-out;
-  padding: 1.3rem;
-  min-height: 52px;
-  display: inline-block;
-  justify-content: center;
-  width: 100%;
-  border-radius: 0;
-  letter-spacing: normal;
-  position: relative;
-}
-.btn-primary:hover {
-  background-color: #c19500;
-  border-color: #c19500;
-}
-a[href^="tel:"].btn-primary:before {
-  content: "\f2d2";
-  margin-right: 1.5rem;
-  margin-left: 5px;
-  font-family: "Ionicons", sans-serif;
-  font-size: 1.6rem;
-}
-.btn-primary:after {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 3px;
-  right: 3px;
-  bottom: 3px;
-  left: 3px;
-  border: 1px solid #fff;
-}
-.lease-disclaimer {
-  margin-top: 16px;
-}
-.lease-disclaimer p {
-  font-size: 10px;
-  line-height: 1.25em;
-}
+    div.hero1 h2 {
+      text-align: center !important;
+    }
 
-	</style>
+    div.hero1 div.content {
+      height: auto;
+      max-height: 575px;
+      overflow: auto;
+      text-align: left;
+      color: #fff;
+      background-color: #00000090;
+    }
+
+    h2.heading {
+      line-height: 2.3vmax !important;
+      font-size: 2.3vmax !important;
+      margin-top: 2% !important;
+    }
+
+    h2.price {
+      font-size: 3.5vmax !important;
+      margin-right: 0.5vmax !important;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    h2.price p {
+      font-size: 2vmax !important;
+    }
+
+    h2.details {
+      font-size: 3vmax !important;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    h2.details p {
+      font-size: 1.3vmax !important;
+      margin-top: 0px;
+    }
+
+    .parallax1 {
+      /* The image used */
+      background-image: url("//media-cf.assets-cdk.com/websites/content/c362faebf18f44e9870c3e47a70beaa0_c33x0-1135x487_x1135.jpg");
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .btn {
+      text-decoration: none!important;
+      display: inline-block;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -ms-touch-action: manipulation;
+      touch-action: manipulation;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+    }
+
+    .btn-primary {
+      color: #fff !important;
+      background-color: #f4bc00;
+      border-color: #f4bc00;
+      border-width: 2px;
+      border-style: solid;
+      font-family: LatoBold, sans-serif !important;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      text-align: center;
+      text-transform: uppercase;
+      max-width: 300px;
+      transition: ease-in-out, all 0.2s ease-in-out;
+      padding: 1.3rem;
+      min-height: 52px;
+      display: inline-block;
+      justify-content: center;
+      width: 100%;
+      border-radius: 0;
+      letter-spacing: normal;
+      position: relative;
+    }
+
+    .btn-primary:hover {
+      background-color: #c19500;
+      border-color: #c19500;
+    }
+
+    a[href^="tel:"].btn-primary:before {
+      content: "\f2d2";
+      margin-right: 1.5rem;
+      margin-left: 5px;
+      font-family: "Ionicons", sans-serif;
+      font-size: 1.6rem;
+    }
+
+    .btn-primary:after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 3px;
+      right: 3px;
+      bottom: 3px;
+      left: 3px;
+      border: 1px solid #fff;
+    }
+
+    .lease-disclaimer {
+      margin-top: 16px;
+    }
+
+    .lease-disclaimer p {
+      font-size: 10px;
+      line-height: 1.25em;
+    }
+  </style>
 </head>
 <h1>Chevrolet Impala Lease Offers for October | Hubbard, OH</h1>
 
-<body class="">
-	<div class="hero1" style="background-image: url('https://media-cf.assets-cdk.com/websites/content/b573a87db95a44b0a5d44034beeb16b4_c0x1-1067x599_x1067.jpg;');background-position: 33% 90%;  padding: 1vmax 3vmax 6vmax 6vmax;">
-		<div class="col-xs-12 col-sm-offset-8 col-sm-4 content" style=" padding: 1vmax 2vmax 1vmax 2vmax;">
-			<div style="text-align: center;">
-				<h2 class="heading">Lease a YEAR MAKE MODEL <br>for</h2>
-				<div class="row" style="margin:0p">
-					<div class="col-xs-12" style=" text-align: center;">
+<body class="dcw-design-stainless ">
+  <div class="hero1" style="background-image: url('https://media-cf.assets-cdk.com/websites/content/b573a87db95a44b0a5d44034beeb16b4_c0x1-1067x599_x1067.jpg;');background-position: 33% 70%;  padding: 1vmax 3vmax 6vmax 6vmax;">
+    <div class="col-xs-12 col-sm-offset-8 col-sm-4 content" style=" padding: 1vmax 2vmax 1vmax 2vmax;">
+      <div style="text-align: center;">
+        <h2 class="heading">Lease a 2018 Chevrolet Impala <br>for</h2>
+        <div class="row" style="margin:0p">
+          <div class="col-xs-12" style=" text-align: center;">
 
-						<h2 class="price">$XXX</h2>
-						<p>MO.</p>
+            <h2 class="price">$299</h2>
+            <p>MO.</p>
 
-					</div>
-					<div class="col-xs-6" style="border-right: solid 2px #000000; text-align: center;">
+          </div>
+          <div class="col-xs-6" style="border-right: solid 2px #000000; text-align: center;">
 
-						<h2 class="details" style="font-size: 3vmax;">XX</h2>
-						<p>MOS.</p>
+            <h2 class="details" style="font-size: 3vmax;">39</h2>
+            <p>MOS.</p>
 
-					</div>
-					<div class="col-xs-6" style="text-align: center;">
+          </div>
+          <div class="col-xs-6" style="text-align: center;">
 
-						<h2 class="details" style="font-size: 2.8vmax;">$XXXX</h2>
-						<p>DUE AT SIGNING</p>
+            <h2 class="details" style="font-size: 2.8vmax;">$4,119</h2>
+            <p>DUE AT SIGNING</p>
 
-					</div>
-				</div>
-				<p>Expires XX/XX/2018. ----------------------------------.</p>
+          </div>
+        </div>
+        <p>Expires 10/31/2018. <br>Tax, title, license, and dealer fees extra.
+          Mileage charge of $0.25/mile over 32,500 miles at participating dealers..</p>
 
-				<div>
+        <div>
 
+          <div class="col-xs-12">
+            <a class="btn-primary btn" style="width: 100%; margin-top: 2%;" href="tel:3302699034">Call Now</a>
+          </div>
+          <div class="col-sm-12">
+            <a class="btn-primary btn" style="width: 100%; margin-top: 2%;" href="#form">Claim Offer</a>
+          </div>
 
-					<div class="hidden-xs col-sm-12">
-						<a class="btn-primary btn" style="width: 100%; margin-top: 2%;" href="">Claim Offer</a>
-					</div>
-					<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
-						<a class="btn-primary btn" style="width: 100%; margin-top: 2%;" href="">Call Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	<div class="dark" id="form">
-		<p style="font-size: small;">Disclaimer: </p>
-	</div>
-	<div class="col-xs-12">
+  <div class="dark" id="form">
+    <p style="font-size: small;">Disclaimer: *Example based on survey. Each dealer sets own price. Your payments may
+      vary. Payments are for a 2018 CHEVROLET Impala LT with an MSRP of $30,220. 39 monthly payments total $11,661.
+      Option to purchase at lease end for an amount to be determined at lease signing. Lessor must approve lease. Take
+      delivery by 10-31-2018. Lessee pays for maintenance, repair, excess wear and disposition fee of $395 or less at
+      end of lease. Payments may be higher in some states. Not available with other offers. See dealer for details.
 
-		<p>If you are looking for an athletic yet sophisticated full-sized sedan, your search stops with the Chevrolet
-			Impala. Our Chevy Impala dealer in Hubbard, OH offers new Impala lease specials each month to help you save on the
-			lease price of a new Impala. Interested in our featured lease option? Contact our Chevrolet Impala finance team to
-			take advantage of this limited time special offer before it&rsquo;s gone. If you&rsquo;d like more information on
-			the various Impala trim options, read our <u>Impala overview</u>.</p>
-		<p>If you&rsquo;re looking at an Impala for sale in our inventory, you can also find rebates, unique loan and APR
-			offers in our <u>incentives</u> section for any model in the Chevy lineup.</p>
-		<h2>Top Reasons to Lease the Chevrolet Impala</h2>
-		<ol>
-			<li>The Impala gets up to 305 HP with the V6 engine</li>
-			<li>The roomy Impala has 105 cu. ft. of passenger volume and 18.8 cu. ft. of trunk volume</li>
-			<li>It&rsquo;s available with advanced driver assistance features including adaptive cruise control, lane departure
-				warning, and forward collision alert</li>
-			<li>It&rsquo;s available with premium comfort features including heated and ventilated front seats</li>
-			<li>It comes standard with a built-in 4G LTE Wi-Fi&reg; hotspot</li>
-		</ol>
+      **Current Lessees of 2012 model year or newer non-GM vehicles: Payments are based on an MSRP of $30,220. 39
+      monthly payments total $11,661. Must show proof of lease. Option to purchase at lease end for an amount to be
+      determined at lease signing. Lessor must approve lease. Take delivery by 10-31-2018. Lessee pays for maintenance,
+      repair, excess wear and disposition fee of $395 or less at end of lease. Payments may be higher in some states.
+      Not available with other offers. See dealer for details.</p>
+  </div>
+  <div class="col-xs-12">
 
-	</div>
+    <p>If you are looking for an athletic yet sophisticated full-sized sedan, your search stops with the Chevrolet
+      Impala. Our Chevy Impala dealer in Hubbard, OH offers new Impala lease specials each month to help you save on
+      the
+      lease price of a new Impala. Interested in our featured lease option? Contact our Chevrolet Impala finance team
+      to
+      take advantage of this limited time special offer before it&rsquo;s gone. If you&rsquo;d like more information on
+      the various Impala trim options, read our <a href="/research-impala-trims-ls-vs-lt-vs-premier">Impala overview</a>.</p>
+    <p>If you&rsquo;re looking at an Impala for sale in our inventory, you can also find rebates, unique loan and APR
+      offers in our <a href="/current-chevy-specials">incentives</a> section for any model in the Chevy lineup.</p>
+    <h2>Top Reasons to Lease the Chevrolet Impala</h2>
+    <ol>
+      <li>The Impala gets up to 305 HP with the V6 engine</li>
+      <li>The roomy Impala has 105 cu. ft. of passenger volume and 18.8 cu. ft. of trunk volume</li>
+      <li>It&rsquo;s available with advanced driver assistance features including adaptive cruise control, lane
+        departure
+        warning, and forward collision alert</li>
+      <li>It&rsquo;s available with premium comfort features including heated and ventilated front seats</li>
+      <li>It comes standard with a built-in 4G LTE Wi-Fi&reg; hotspot</li>
+    </ol>
+
+  </div>
 </body>
 
 </html>
