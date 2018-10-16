@@ -1,0 +1,6 @@
+CLP1 https://www.mikeandersonchevychicago.com/new-vehicles/trax/
+CLP2 https://www.mikeandersonchevychicago.com/new-vehicles/equinox/
+CLP3 https://www.mikeandersonchevychicago.com/new-vehicles/tahoe/
+CLP4 https://www.mikeandersonchevychicago.com/new-vehicles/traverse/
+CLP5 https://www.mikeandersonchevychicago.com/new-vehicles/camaro/
+CLP6 https://www.mikeandersonchevychicago.com/new-vehicles/suburban/
