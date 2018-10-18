@@ -1,6 +1,8 @@
-CLP1 Avalon Trims
-CLP2 Corolla Trims https://www.northbrooktoyota.com/research/corolla-trims.htm
+
 CLP3 Oil Change https://www.northbrooktoyota.com/service/oil-change.htm
+CLP4 Battery Change https://www.northbrooktoyota.com/service/toyota-batteries.htm
+PU1 Brake Repair https://www.northbrooktoyota.com/service/brake-service-and-repair.htm
+Pu2 Tire Center https://www.northbrooktoyota.com/northbrook-toyota-tire-center.htmCLP3 Oil Change https://www.northbrooktoyota.com/service/oil-change.htm
 CLP4 Battery Change https://www.northbrooktoyota.com/service/toyota-batteries.htm
 PU1 Brake Repair https://www.northbrooktoyota.com/service/brake-service-and-repair.htm
 Pu2 Tire Center https://www.northbrooktoyota.com/northbrook-toyota-tire-center.htm
