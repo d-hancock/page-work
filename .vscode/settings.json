@@ -9,4 +9,6 @@
     "explorer.confirmDragAndDrop": false,
     "files.useExperimentalFileWatcher": true,
     "editor.insertSpaces": false,
+    "html.format.unformatted": "wbr, span"
+}
 }
