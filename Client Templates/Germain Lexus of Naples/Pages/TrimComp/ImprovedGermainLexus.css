@@ -44,7 +44,7 @@ a, p,{
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: underline!important;
 }
 
 
@@ -58,7 +58,7 @@ a.btn {
   font-family: "Nobel bold", sans-serif;
   margin-top: 1rem;
   border-radius: 0px;
-  text-decoration: none;
+  text-decoration: none!important;
   padding: 1.5rem 1rem !important;
 }
 
