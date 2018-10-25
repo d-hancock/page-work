@@ -1,0 +1,4 @@
+CLP1 LSLease https://www.lexusofnaples.com/research-ls-inventory
+CLP2 ESVsAvalon https://www.lexusofnaples.com/research-es-vs-avalon
+CLP3 ESVsTlx https://www.lexusofnaples.com/research-es-vs-tlx
+CLP4 ESVsA6 https://www.lexusofnaples.com/research-es-vs-A6

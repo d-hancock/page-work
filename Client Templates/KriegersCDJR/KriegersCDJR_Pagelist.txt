@@ -1,0 +1,5 @@
+CLP1 HomePage https://www.kriegermotor.com/
+CLP2 FinancingCenter https://www.kriegermotor.com/used-inventory/index.htm
+PU1 NewInventory https://www.kriegermotor.com/used-inventory/index.htm
+PU2 UsedInventory https://www.kriegermotor.com/used-inventory/index.htm
+PU3 CPOInventory https://www.kriegermotor.com/certified-inventory/index.htm
