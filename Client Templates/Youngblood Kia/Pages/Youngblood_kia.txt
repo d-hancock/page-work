@@ -1,0 +1,6 @@
+CLP1	http://www.springfieldkia.com/research/optima-inventory.htm
+CLP2	http://www.springfieldkia.com/research/sorento-inventory.htm
+CLP3	http://www.springfieldkia.com/research/sportage-inventory.htm
+CLP4	http://www.springfieldkia.com/research/stinger-inventory.htm
+PU1		http://www.springfieldkia.com/EdmundsAppraiseTool.htm
+PU2		http://www.springfieldkia.com/research/under-10K.htm

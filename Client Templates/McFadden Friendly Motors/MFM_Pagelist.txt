@@ -1,3 +1,4 @@
 CLP1 CompassLease https://www.mcfaddenfriendly.com/new-vehicles/compass/
 CLP2 WranglerLease https://www.mcfaddenfriendly.com/new-vehicles/wrangler/
-CLP3 WranglerTrims 
+CLP3 WranglerTrims https://www.mcfaddenfriendly.com/research-wrangler-jl-trims/
+CLP4 WranglerVsRenegade https://www.mcfaddenfriendly.com/wrangler-vs-renegade/

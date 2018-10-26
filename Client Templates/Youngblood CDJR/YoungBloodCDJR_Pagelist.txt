@@ -1,0 +1,6 @@
+CLP1 WranglerUnlimitedLease https://www.youngbloodchryslerjeep.com/research/wrangler-unlimited-inventory.htm
+CLP2 RenegadeLease https://www.youngbloodchryslerjeep.com/research/renegade-inventory.htm
+PU1 NewWranglerLease https://www.youngbloodchryslerjeep.com/research/jeep-wrangler-inventory.htm
+PU2 Ram1500Lease https://www.youngbloodchryslerjeep.com/research/ram-1500-inventory.htm
+PU3 Ram2500Lease https://www.youngbloodchryslerjeep.com/research/ram-2500-inventory.htm
+PU4 CherokeeLease https://www.youngbloodchryslerjeep.com/research/cherokee-inventory.htm
