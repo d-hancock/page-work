@@ -1,0 +1,5 @@
+UnsatisfiableError: The following specifications were found to be in conflict:
+  - enum34 -> python[version='>=2.7,<2.8.0a0']
+  - python==3.6.5
+Use "conda info <package>" to see the dependencies for each package.
+
